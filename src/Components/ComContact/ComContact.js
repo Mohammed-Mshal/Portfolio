@@ -19,7 +19,7 @@ function ComContact(props) {
             icon={<AiOutlineSend className="ms-1 fs-5" />}
           />
         </div>
-        <img src={require(`../../myPicture.jpg`)} className="col-6 col-lg-4" alt="" />
+        <img src={require(`../../myPicture.jpg`)} className="col-8 col-lg-4" alt="" />
       </div>
     </div>
   );

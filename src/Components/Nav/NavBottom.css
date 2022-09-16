@@ -44,10 +44,14 @@ ul.nav__bottom li {
 ul.nav__bottom li a {
     margin: 20px 10px;
 }
-ul.nav__bottom li a svg {
+ul.nav__bottom li a * {
     color: white;
 }
 ul.nav__bottom .text_light:not(.active) *,
 ul.nav__bottom .text_light:not(.active) {
+    color: white;
+}
+ul.nav__bottom .text_dark:not(.active) *,
+ul.nav__bottom .text_dark:not(.active) {
     color: white;
 }

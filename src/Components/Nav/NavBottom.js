@@ -1,4 +1,9 @@
 import React from "react";
+import { AiOutlineHome } from "react-icons/ai";
+import { FaAddressCard, FaFlask } from "react-icons/fa";
+import { BiBriefcase } from "react-icons/bi";
+import { MdReceipt } from "react-icons/md";
+import { ImAddressBook } from "react-icons/im";
 import "./NavBottom.css";
 function NavBottom(props) {
   return (
@@ -15,7 +20,7 @@ function NavBottom(props) {
             props.setActivePage(`home`);
           }}
         >
-          <i className="fas fa-home"></i>
+          <AiOutlineHome />
         </a>
       </li>
       <li>
@@ -29,7 +34,7 @@ function NavBottom(props) {
             props.setActivePage(`about`);
           }}
         >
-          <i className="fas fa-id-card"></i>
+          <FaAddressCard />
         </a>
       </li>
       <li>
@@ -42,7 +47,7 @@ function NavBottom(props) {
             props.setActivePage(`skills`);
           }}
         >
-          <i className="fas fa-flask"></i>
+          <FaFlask />
         </a>
       </li>
       <li>
@@ -55,7 +60,7 @@ function NavBottom(props) {
             props.setActivePage(`services`);
           }}
         >
-          <i className="fas fa-briefcase"></i>
+          <BiBriefcase />
         </a>
       </li>
       <li>
@@ -68,7 +73,7 @@ function NavBottom(props) {
             props.setActivePage(`portfolio`);
           }}
         >
-          <i className="fas fa-receipt"></i>
+          <MdReceipt />
         </a>
       </li>
       <li>
@@ -82,7 +87,7 @@ function NavBottom(props) {
             props.setActivePage(`contact`);
           }}
         >
-          <i className="fas fa-address-book"></i>
+          <ImAddressBook />
         </a>
       </li>
     </ul>

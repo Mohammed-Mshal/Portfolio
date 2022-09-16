@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav__bottom,
+.header {
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+.bg_dark {
+  background-color: #181522;
+}
+
+.text_dark :is(h4, button),
+.text_dark {
+  color: #fff;
+}
+
+.bg_light {
+  background-color: #fff;
+}
+
+.text_light {
+  color: #000;
+}
+
+.text_light:is(.logo, a):hover,
+.text_light:is(.logo, a):hover *,
+.text_light.active *,
+.text_light.active,
+.text_dark:is(.logo, a):hover,
+.text_dark:is(.logo, a):hover *,
+.text_dark.active *,
+.text_dark.active {
+  color: #685bcd;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px 0#685bcd;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  color: #443b88;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-ltr .swiper-button-next:after {
+  color: #685bcd;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: #685bcd;
+
+}
+

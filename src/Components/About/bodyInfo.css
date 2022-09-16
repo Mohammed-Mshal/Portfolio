@@ -1,0 +1,14 @@
+@media (min-width:992px) {
+    .body_info .info {
+        max-width: 400px;
+    }
+    .body_info .info {
+        max-width: 400px;
+    }
+    
+}
+.body_info img{
+    max-width: 300px;
+    object-fit: contain;
+    
+}

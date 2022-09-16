@@ -1,0 +1,35 @@
+.nav {
+    height: 70px;
+}
+
+.nav,
+.nav * {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.logo {
+    font-size: clamp(1rem, 5vw, 2rem);
+    cursor: pointer;
+}
+
+.nav li {
+    margin-inline: 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav button {
+    background:none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border: 0;
+}

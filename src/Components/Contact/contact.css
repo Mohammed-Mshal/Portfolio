@@ -1,0 +1,49 @@
+.contact ,
+.contact *{
+    transition: .4s box-shadow;
+    -webkit-transition: .4s box-shadow;
+    -moz-transition: .4s box-shadow;
+    -ms-transition: .4s box-shadow;
+    -o-transition: .4s box-shadow;
+}
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+}
+.contact .input input,
+.contact .textarea textarea{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.contact.bg_dark .input,
+.contact.bg_dark .textarea {
+
+    background-color: #1f1d31;
+}
+
+.contact.bg_dark input:focus,
+.contact.bg_dark textarea:focus {
+    box-shadow: 0 0 10px 0 #1f1d31;
+}
+
+.contact.bg_light .input,
+.contact.bg_light .textarea {
+    background-color: #edeefb;
+}
+
+.contact.bg_light input:focus,
+.contact.bg_light textarea:focus {
+    box-shadow: 0 0 10px 0 #edeefb;
+}
+
+.contact .textarea {
+    height: 300px;
+
+}
+
+.contact .textarea textarea {
+    resize: none;
+}

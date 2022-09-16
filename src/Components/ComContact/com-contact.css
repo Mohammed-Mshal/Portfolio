@@ -1,0 +1,9 @@
+.com-contact-content {
+    max-width: 992px;
+    background-color: #0c0e1a;
+}
+
+.com-contact.bg_light .com-contact-content {
+    background-color: white;
+    box-shadow: 5px 5px 10px 0 #0c0e1a72;
+}

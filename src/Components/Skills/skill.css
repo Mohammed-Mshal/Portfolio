@@ -1,0 +1,65 @@
+.skill {
+    min-width: 300px;
+}
+
+.skill>div {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    user-select: none;
+
+}
+
+.skill>div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 1px #6b5fd95d;
+    overflow: hidden;
+}
+
+.skill ul {
+    height: 0;
+    overflow-y: hidden;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.skill ul.show {
+    height: 100%;
+}
+
+.skill ul li .range {
+    background-color: #c2bbf0;
+    height: 4px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.skill ul li .range .complete {
+    background-color: #6c5fd9;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.skill .icon_Arrow {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.skill .icon_Arrow.show {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}

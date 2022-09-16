@@ -1,0 +1,9 @@
+.header {
+    padding-block: 100px;
+
+}
+
+.header img {
+    max-width: 300px;
+    margin: auto;
+}

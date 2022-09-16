@@ -1,0 +1,90 @@
+.service_card {
+    min-height: 300px;
+    width: 250px;
+}
+
+.services.bg_dark .service_card {
+    background-color: #1f1d31;
+    color: #685bcd;
+
+}
+.services.bg_light .service_card {
+    box-shadow: 5px 5px 10px 0 #1f1d312f;
+    color: black;
+}
+
+
+.service_card button,
+.service_card button *{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.service_card button:hover,
+.service_card button:hover *{
+    cursor: pointer;
+    color: #685bcd;
+}
+.service_card button:hover *{
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+.info_service {
+    position: fixed;
+    height: 0%;
+    width: 0%;
+    left: 50%;
+    top: 50%;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    z-index: 10;
+}
+
+.info_service.show {
+    height: 100%;
+    width: 100%
+}
+
+.services.bg_dark .info_service .contain {
+    background-color: #1f1d31;
+}
+.services.bg_light .info_service .contain {
+    background-color: white;
+}
+.info_service .contain {
+    width: 80%;
+    max-width: 300px;
+    z-index: 1;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: .4s transform;
+    -webkit-transition: .4s transform;
+    -moz-transition: .4s transform;
+    -ms-transition: .4s transform;
+    -o-transition: .4s transform;
+}
+
+.info_service.show .contain {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.info_service.show .contain .but {
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.testimonial {
+    max-width: 300px;
+}
+
+.testimonial img {
+    max-width: 60px;
+}
+
+.testimonials .swiper-button-next:after,
+.testimonials .swiper-button-prev:after {
+    font-size: 1.5rem;
+}

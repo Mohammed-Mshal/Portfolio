@@ -42,7 +42,7 @@ ul.nav__bottom li {
 }
 
 ul.nav__bottom li a {
-    margin: 20px 10px;
+    padding: 20px 10px;
 }
 ul.nav__bottom li a * {
     color: white;

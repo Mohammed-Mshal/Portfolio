@@ -22,7 +22,7 @@ function BodyInfo(props) {
         </p>
         <div className="d-flex flex-wrap flex-lg-nowrap justify-content-around text-center my-2">
           <div className="d-flex flex-column pe-lg-4 px-2 mt-2">
-            <h4>8+</h4>
+            <h4>1+</h4>
             <span
               className={`${
                 props.textTheme === `text_dark` ? `text-white-50` : `text-muted`
@@ -32,7 +32,7 @@ function BodyInfo(props) {
             </span>
           </div>
           <div className="d-flex flex-column px-lg-4 px-2 mt-2">
-            <h4>20+</h4>
+            <h4>10+</h4>
             <span
               className={`${
                 props.textTheme === `text_dark` ? `text-white-50` : `text-muted`
@@ -42,7 +42,7 @@ function BodyInfo(props) {
             </span>
           </div>
           <div className="d-flex flex-column px-lg-4 px-2 mt-2">
-            <h4>5+</h4>
+            <h4>Not Yet</h4>
             <span
               className={`${
                 props.textTheme === `text_dark` ? `text-white-50` : `text-muted`

@@ -13,7 +13,7 @@ function ComContact(props) {
           <h3>You have a new project</h3>
           <p className="text-center text-lg-start">Contact me now and get a 30% discount on your new project</p>
           <Button
-            link={`#ContactMe`}
+            link={`#contact`}
             textContent={`Contact Me`}
             textTheme={props.theme.text}
             icon={<AiOutlineSend className="ms-1 fs-5" />}

@@ -18,7 +18,7 @@ function Introduction(props) {
           props.textTheme === `text_dark` ? `text-white-50` : `text-muted`
         }`}
       >
-        High level experience in web design and development knowledge, producing
+        High level experience in web development knowledge, producing
         quality work.
       </p>
       <Button

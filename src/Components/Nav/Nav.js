@@ -8,29 +8,29 @@ function Nav(props) {
   useEffect(
     () =>
       window.addEventListener(`scroll`, (e) => {
-        if (e.currentTarget.scrollY < 350) {
+        if (e.currentTarget.scrollY < 200) {
           setActivePage(`home`);
         } else if (
-          e.currentTarget.scrollY >= 350 &&
-          e.currentTarget.scrollY < 850
+          e.currentTarget.scrollY >= 200 &&
+          e.currentTarget.scrollY < 950
         ) {
           setActivePage(`about`);
         } else if (
-          e.currentTarget.scrollY >= 850 &&
-          e.currentTarget.scrollY < 2000
+          e.currentTarget.scrollY >= 951 &&
+          e.currentTarget.scrollY < 1300
         ) {
           setActivePage(`skills`);
         } else if (
-          e.currentTarget.scrollY >= 2000 &&
-          e.currentTarget.scrollY < 3000
+          e.currentTarget.scrollY >= 1800 &&
+          e.currentTarget.scrollY < 2400
         ) {
           setActivePage(`services`);
         } else if (
-          e.currentTarget.scrollY >= 3000 &&
-          e.currentTarget.scrollY < 5000
+          e.currentTarget.scrollY >= 2401 &&
+          e.currentTarget.scrollY < 2899
         ) {
           setActivePage(`portfolio`);
-        } else if (e.currentTarget.scrollY >= 5000) {
+        } else if (e.currentTarget.scrollY >= 3900) {
           setActivePage(`contact`);
         }
       }),
